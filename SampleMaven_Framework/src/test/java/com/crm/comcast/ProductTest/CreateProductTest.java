@@ -15,5 +15,12 @@ public class CreateProductTest {
 	{
 		System.out.println("execute createProductWithIDTest");
 	}
+	
+
+	@Test(groups="regressionTest")
+	public void deleteProductWithIDTest()
+	{
+		System.out.println("execute createProductWithIDTest");
+	}
 
 }
