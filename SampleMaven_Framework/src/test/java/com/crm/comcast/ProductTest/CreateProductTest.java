@@ -7,6 +7,8 @@ public class CreateProductTest {
 	@Test(groups="smokeTest")
 	public void createProductWithNameTest()
 	{
+		String browser=System.getProperty("browser");
+		System.out.println("BROWSER"+browser);
 		System.out.println("execute createProductWithNameTest");
 	}
 	
